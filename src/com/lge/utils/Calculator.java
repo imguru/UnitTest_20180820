@@ -9,6 +9,13 @@ package com.lge.utils;
 public class Calculator {
     private int value;
 
+    /*
+    public Calculator(int value) {
+        this.value = value;
+    }
+    */
+
+
     public void add(int n) {
         value += n;
     }
@@ -18,8 +25,8 @@ public class Calculator {
     }
 
     public int display() {
-        return 0;
-        // return value;
+        // return 0;
+        return value;
     }
 }
 
