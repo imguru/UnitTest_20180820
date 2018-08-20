@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62ce78f5-6fb2-4abe-97e8-0d8d94b4bee5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/lge/utils/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lge/utils/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lge/utils/test/fixture/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lge/utils/test/fixture/CalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="62ce78f5-6fb2-4abe-97e8-0d8d94b4bee5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lge/utils/test/fixture/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+            <state relative-caret-position="234">
+              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2804#2805#0" expanded="true" />
@@ -296,12 +293,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="108" width="1280" height="697" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" />
@@ -309,7 +305,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39338842" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39338842" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lge/utils/test/fixture/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+        <state relative-caret-position="234">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2804#2805#0" expanded="true" />
