@@ -61,17 +61,32 @@ public class CalculatorTest {
     //  => 테스트의 시나리오가 테스트 메소드 안에 드러나도록 해야 한다.
     //  ex) 테스트대상메소드_시나리오_기대값
     // public void add_2더하기2_결과는4() {
+
+    // BDD(행위 주도 개발)
+    //   * 상태 검증 보다는 행위 검증
+    //   * 코드의 가독성을 최대한 끌어올린다.
+
+    // 테스트를 구성하는 방법 - '3A'
+    //  1. Arrange(준비) - Given: 객체를 생성하고 필요한 경우 적절하게 설정한다.
+    //  2. Act(작용)     - When : 객체에 작용을 가한다.
+    //  3. Assert(단언)  - Then : 기대하는 바를 단언한다.
     @Test
     public void add_AddingTwoPlusTwo_DisplaysFour() {
+        // Test Fixture
+        //  개념: xUnit 에서는 SUT를 실행하기 전에 해줘야 하는 사전 작업
+        //       (객체 생성, 초기화, 준비 작업)
+        //    => 픽스쳐를 설치(setup) 한다.
+        // Arrange
         Calculator calculator = new Calculator();
         int expected = 24;
         int actual;
 
-
+        // Act
         calculator.add(2);
         calculator.add(2);
         actual = calculator.display();
 
+        // Assert
         assertEquals("2 + 2", expected, actual);
     }
 
