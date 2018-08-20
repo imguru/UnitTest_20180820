@@ -57,6 +57,24 @@ public class CalculatorTest {
         */
     }
 
+    // 테스트의 가독성을 높이는 좋은 접근 방식 중 하나는 테스트 이름을 개선하는 것 입니다.
+    //  => 테스트의 시나리오가 테스트 메소드 안에 드러나도록 해야 한다.
+    //  ex) 테스트대상메소드_시나리오_기대값
+    // public void add_2더하기2_결과는4() {
+    @Test
+    public void add_AddingTwoPlusTwo_DisplaysFour() {
+        Calculator calculator = new Calculator();
+        int expected = 24;
+        int actual;
+
+
+        calculator.add(2);
+        calculator.add(2);
+        actual = calculator.display();
+
+        assertEquals("2 + 2", expected, actual);
+    }
+
 }
 
 
