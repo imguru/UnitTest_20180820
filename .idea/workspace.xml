@@ -19,22 +19,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4244" />
+          <entry key="java" value="5089" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4244" />
+          <entry key="JAVA" value="5089" />
         </counts>
       </usages-collector>
     </session>
@@ -53,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lge/utils/test/fixture/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -62,6 +62,18 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#2804#2805#0" expanded="true" />
                 <element signature="e#2841#2842#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ex1/XUnitSamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/com/lge/utils/test/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/com/lge/utils/Calculator.java" />
         <option value="$PROJECT_DIR$/src/com/lge/utils/test/fixture/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/ex1/XUnitSamples.java" />
       </list>
     </option>
   </component>
@@ -127,25 +140,7 @@
             <path>
               <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest (1)">
+  <component name="RunManager" selected="JUnit.XUnitSamples.fooTest_JUnit4">
     <configuration name="CalculatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest_180820" />
       <extension name="coverage">
@@ -218,34 +213,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XUnitSamples.fooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest_180820" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lge.utils.test.*" />
+          <option name="PATTERN" value="ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lge.utils.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lge.utils.test.CalculatorTest" />
-      <option name="METHOD_NAME" value="testAdd" />
+      <option name="PACKAGE_NAME" value="ex1" />
+      <option name="MAIN_CLASS_NAME" value="ex1.XUnitSamples" />
+      <option name="METHOD_NAME" value="fooTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XUnitSamples.fooTest_JUnit4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest_180820" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex1" />
+      <option name="MAIN_CLASS_NAME" value="ex1.XUnitSamples" />
+      <option name="METHOD_NAME" value="fooTest_JUnit4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest.testAdd" />
       <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.CalculatorTest.add_2더하기2_결과는4" />
       <item itemvalue="JUnit.CalculatorTest (1)" />
+      <item itemvalue="JUnit.XUnitSamples.fooTest" />
+      <item itemvalue="JUnit.XUnitSamples.fooTest_JUnit4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.XUnitSamples.fooTest_JUnit4" />
+        <item itemvalue="JUnit.XUnitSamples.fooTest" />
         <item itemvalue="JUnit.CalculatorTest (1)" />
         <item itemvalue="JUnit.CalculatorTest.add_2더하기2_결과는4" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -260,44 +273,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2018.08.20 at 13h 47m 39s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest - 2018.08.20 at 15h 08m 38s.xml">
+      <configuration name="XUnitSamples.fooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_add_2더하기2_결과는4 - 2018.08.20 at 13h 49m 35s.xml">
-      <configuration name="CalculatorTest.add_2더하기2_결과는4" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest - 2018.08.20 at 15h 09m 21s.xml">
+      <configuration name="XUnitSamples.fooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_(1) - 2018.08.20 at 14h 31m 31s.xml">
-      <configuration name="CalculatorTest (1)" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest - 2018.08.20 at 15h 10m 56s.xml">
+      <configuration name="XUnitSamples.fooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_(1) - 2018.08.20 at 14h 31m 41s.xml">
-      <configuration name="CalculatorTest (1)" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest - 2018.08.20 at 15h 11m 15s.xml">
+      <configuration name="XUnitSamples.fooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_(1) - 2018.08.20 at 14h 31m 45s.xml">
-      <configuration name="CalculatorTest (1)" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest - 2018.08.20 at 15h 11m 54s.xml">
+      <configuration name="XUnitSamples.fooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_(1) - 2018.08.20 at 14h 31m 54s.xml">
-      <configuration name="CalculatorTest (1)" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest - 2018.08.20 at 15h 12m 02s.xml">
+      <configuration name="XUnitSamples.fooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_(1) - 2018.08.20 at 14h 32m 38s.xml">
-      <configuration name="CalculatorTest (1)" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest - 2018.08.20 at 15h 13m 55s.xml">
+      <configuration name="XUnitSamples.fooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_(1) - 2018.08.20 at 14h 34m 37s.xml">
-      <configuration name="CalculatorTest (1)" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest_JUnit4 - 2018.08.20 at 15h 14m 00s.xml">
+      <configuration name="XUnitSamples.fooTest_JUnit4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_(1) - 2018.08.20 at 14h 37m 34s.xml">
-      <configuration name="CalculatorTest (1)" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest_JUnit4 - 2018.08.20 at 15h 14m 10s.xml">
+      <configuration name="XUnitSamples.fooTest_JUnit4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_(1) - 2018.08.20 at 14h 40m 09s.xml">
-      <configuration name="CalculatorTest (1)" configurationId="JUnit" />
+    <history-entry file="XUnitSamples_fooTest_JUnit4 - 2018.08.20 at 15h 14m 24s.xml">
+      <configuration name="XUnitSamples.fooTest_JUnit4" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="108" width="1280" height="697" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32956383" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1898223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" />
@@ -305,7 +319,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39338842" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39338842" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,6 +374,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2804#2805#0" expanded="true" />
             <element signature="e#2841#2842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex1/XUnitSamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
