@@ -95,6 +95,36 @@ public class XUnitSamples {
     }
 }
 
+// Google Test - Windows / Linux
+//  : 정적 라이브러리를 사용해서 빌드하는 것이 추천됩니다.
+
+// 1. wget https://github.com/google/googletest/archive/release-1.8.0.tar.gz
+// 2. tar xvf release-1.8.0.tar.gz
+// 3. mv googletest-release-1.8.0/ googletest
+// 4. ubuntu:~/googletest/googletest/scripts$ ./fuse_gtest_files.py gtest
+// 5. g++ gtest_all.cc -c
+// 6. ar rcv gtest.a gtest_all.o
+// 7. g++ calc_test.cpp -I. gtest/gtest.a -lpthread
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
