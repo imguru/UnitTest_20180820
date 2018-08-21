@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ce78f5-6fb2-4abe-97e8-0d8d94b4bee5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest_180820.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest_180820.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UnitTest_180820/ex4/testdouble/fake/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UnitTest_180820/ex4/testdouble/fake/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex4/testdouble/spy/DLogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4/testdouble/spy/DLogTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,38 +24,51 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="18616" />
+          <entry key="java" value="20553" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18616" />
+          <entry key="JAVA" value="20553" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ex4/testdouble/spy/DLogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state relative-caret-position="179">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#548#549#0" expanded="true" />
                 <element signature="e#586#587#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ex4/testdouble/mock/MockitoSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2259#2289#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,12 +114,13 @@
         <option value="$PROJECT_DIR$/src/ex4/testdouble/fake/UserManagerTest.java" />
         <option value="$PROJECT_DIR$/src/ex4/testdouble/mock/DLogTest.java" />
         <option value="$PROJECT_DIR$/src/ex4/testdouble/spy/DLogTest.java" />
+        <option value="$PROJECT_DIR$/src/ex4/testdouble/mock/MockitoSample.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1280" />
-    <option name="y" value="108" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1920" />
+    <option name="y" value="383" />
     <option name="width" value="1280" />
     <option name="height" value="697" />
   </component>
@@ -132,17 +143,6 @@
             <path>
               <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -157,23 +157,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ex4" type="462c0819:PsiDirectoryNode" />
               <item name="testdouble" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ex4" type="462c0819:PsiDirectoryNode" />
-              <item name="testdouble" type="462c0819:PsiDirectoryNode" />
-              <item name="stub" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ex4" type="462c0819:PsiDirectoryNode" />
-              <item name="testdouble" type="462c0819:PsiDirectoryNode" />
-              <item name="stub" type="462c0819:PsiDirectoryNode" />
-              <item name="LoggerTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -201,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DLogTest.writeTest">
+  <component name="RunManager" selected="JUnit.MockitoSample.hooTest">
     <configuration name="DLogTest.writeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest_180820" />
       <extension name="coverage">
@@ -218,80 +201,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockitoSample.fooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest_180820" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex4.testdouble.stub.*" />
+          <option name="PATTERN" value="ex4.testdouble.mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex4.testdouble.stub" />
-      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.stub.LoggerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest_180820" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex4.testdouble.fake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex4.testdouble.fake" />
-      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.fake.UserManagerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserManagerTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest_180820" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex4.testdouble.fake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex4.testdouble.fake" />
-      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.fake.UserManagerTest" />
-      <option name="METHOD_NAME" value="createTest" />
+      <option name="PACKAGE_NAME" value="ex4.testdouble.mock" />
+      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.mock.MockitoSample" />
+      <option name="METHOD_NAME" value="fooTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.moveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockitoSample.gooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest_180820" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex4.testdouble.stub.*" />
+          <option name="PATTERN" value="ex4.testdouble.mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex4.testdouble.stub" />
-      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.stub.UserTest" />
-      <option name="METHOD_NAME" value="moveTest" />
+      <option name="PACKAGE_NAME" value="ex4.testdouble.mock" />
+      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.mock.MockitoSample" />
+      <option name="METHOD_NAME" value="gooTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockitoSample.gooTest_arg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest_180820" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex4.testdouble.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex4.testdouble.mock" />
+      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.mock.MockitoSample" />
+      <option name="METHOD_NAME" value="gooTest_arg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockitoSample.hooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest_180820" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex4.testdouble.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex4.testdouble.mock" />
+      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.mock.MockitoSample" />
+      <option name="METHOD_NAME" value="hooTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LoggerTest" />
-      <item itemvalue="JUnit.UserTest.moveTest" />
-      <item itemvalue="JUnit.UserManagerTest" />
-      <item itemvalue="JUnit.UserManagerTest.createTest" />
       <item itemvalue="JUnit.DLogTest.writeTest" />
+      <item itemvalue="JUnit.MockitoSample.fooTest" />
+      <item itemvalue="JUnit.MockitoSample.gooTest" />
+      <item itemvalue="JUnit.MockitoSample.gooTest_arg" />
+      <item itemvalue="JUnit.MockitoSample.hooTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MockitoSample.hooTest" />
+        <item itemvalue="JUnit.MockitoSample.gooTest_arg" />
+        <item itemvalue="JUnit.MockitoSample.gooTest" />
+        <item itemvalue="JUnit.MockitoSample.fooTest" />
         <item itemvalue="JUnit.DLogTest.writeTest" />
-        <item itemvalue="JUnit.UserManagerTest.createTest" />
-        <item itemvalue="JUnit.UserManagerTest" />
-        <item itemvalue="JUnit.UserTest.moveTest" />
-        <item itemvalue="JUnit.LoggerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,49 +293,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoggerTest - 2018.08.21 at 10h 03m 57s.xml">
-      <configuration name="LoggerTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_gooTest_arg - 2018.08.21 at 13h 30m 29s.xml">
+      <configuration name="MockitoSample.gooTest_arg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTest - 2018.08.21 at 10h 04m 01s.xml">
-      <configuration name="LoggerTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_gooTest_arg - 2018.08.21 at 13h 30m 41s.xml">
+      <configuration name="MockitoSample.gooTest_arg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTest - 2018.08.21 at 10h 07m 54s.xml">
-      <configuration name="LoggerTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_hooTest - 2018.08.21 at 13h 32m 45s.xml">
+      <configuration name="MockitoSample.hooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTest - 2018.08.21 at 10h 08m 13s.xml">
-      <configuration name="LoggerTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_hooTest - 2018.08.21 at 13h 33m 16s.xml">
+      <configuration name="MockitoSample.hooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_moveTest - 2018.08.21 at 10h 21m 54s.xml">
-      <configuration name="UserTest.moveTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_hooTest - 2018.08.21 at 13h 34m 50s.xml">
+      <configuration name="MockitoSample.hooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_moveTest - 2018.08.21 at 10h 22m 24s.xml">
-      <configuration name="UserTest.moveTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_hooTest - 2018.08.21 at 13h 35m 07s.xml">
+      <configuration name="MockitoSample.hooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserManagerTest - 2018.08.21 at 10h 36m 54s.xml">
-      <configuration name="UserManagerTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_hooTest - 2018.08.21 at 13h 35m 28s.xml">
+      <configuration name="MockitoSample.hooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserManagerTest_createTest - 2018.08.21 at 10h 41m 25s.xml">
-      <configuration name="UserManagerTest.createTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_hooTest - 2018.08.21 at 13h 35m 36s.xml">
+      <configuration name="MockitoSample.hooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DLogTest_writeTest - 2018.08.21 at 11h 40m 43s.xml">
-      <configuration name="DLogTest.writeTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_hooTest - 2018.08.21 at 13h 35m 50s.xml">
+      <configuration name="MockitoSample.hooTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DLogTest_writeTest - 2018.08.21 at 11h 40m 51s.xml">
-      <configuration name="DLogTest.writeTest" configurationId="JUnit" />
+    <history-entry file="MockitoSample_hooTest - 2018.08.21 at 13h 41m 04s.xml">
+      <configuration name="MockitoSample.hooTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1280" y="108" width="1280" height="697" extended-state="0" />
+    <frame x="-1280" y="108" width="1280" height="697" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6677686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40826446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -519,12 +506,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ex4/testdouble/spy/DLogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        <state relative-caret-position="179">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#548#549#0" expanded="true" />
             <element signature="e#586#587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex4/testdouble/mock/MockitoSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2259#2289#0" expanded="true" />
           </folding>
         </state>
       </provider>

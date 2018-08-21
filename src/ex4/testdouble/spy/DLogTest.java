@@ -7,11 +7,8 @@ package ex4.testdouble.spy;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.junit.Assert.*;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 
 // 테스트 대역 용도 4. SUT의 메소드를 호출하였을 때, 발생하는 부수 효과를 관찰할 수 없어서
 //                 테스트 안된 요구사항을 검증하고 싶다.
