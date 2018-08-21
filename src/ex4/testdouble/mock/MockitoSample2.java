@@ -17,6 +17,28 @@ public class MockitoSample2 {
 
         assertEquals("iPod", stub.name());
     }
+
+    @Test
+    public void isValidFilename_NameLoggerThan5Chars_ReturnsTrue() {
+        String filename = "good_name.log";
+        // StubFileSystemManager stub = new StubFileSystemManager(true);
+        // Logger logger = new Logger(stub);
+
+        // boolean actual = logger.isValidFilename(filename);
+
+        // assertTrue("다섯글자 이상일 때", actual);
+    }
+
+    @Test
+    public void isValidFilename_NameShorterThan5Chars_ReturnsFalse() {
+        String filename = "ba@.log";
+        // StubFileSystemManager stub = new StubFileSystemManager(true);
+        // Logger logger = new Logger(stub);
+
+        // boolean actual = logger.isValidFilename(filename);
+
+        // assertFalse("다섯글자 미만일 때", actual);
+    }
 }
 
 interface MP3 {
