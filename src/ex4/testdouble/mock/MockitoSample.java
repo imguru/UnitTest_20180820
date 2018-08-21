@@ -105,7 +105,7 @@ public class MockitoSample {
     public void setUp() {
         MockitoAnnotations.initMocks(this);
         // 2번째 방법
-        //  : 테스트 클래스 내부의 필드 중 @Mock으로 지정된 필드를 Mock으로 생성해준다.
+        //  : 테스트 클래스 내부의 필드 중 '@Mock'으로 지정된 필드를 'Mock'으로 생성해준다.
 
         sut = new SUT();
 
