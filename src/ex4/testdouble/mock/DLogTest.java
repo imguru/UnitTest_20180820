@@ -8,6 +8,14 @@ import java.util.List;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.*;
 
+// 3권
+// 1) xUnit Test Pattern
+//    https://d.pr/FREE/XKxOgX+
+// 2) Art of Unit Testing
+//    https://d.pr/FREE/SH9USZ+
+// 3) Effective Unit Testing - *
+
+
 // Mockito - 행위 기반 검증 도구(mock, spy)
 //  : 일반적으로는 mock과 spy의 차이점이 없습니다.
 
