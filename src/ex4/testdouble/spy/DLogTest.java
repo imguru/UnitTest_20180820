@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
 
 // 테스트 대역 용도 4. SUT의 메소드를 호출하였을 때, 발생하는 부수 효과를 관찰할 수 없어서
 //                 테스트 안된 요구사항을 검증하고 싶다.
@@ -37,7 +38,34 @@ import static org.junit.Assert.*;
 //    C++: Google Mock
 //    Java: jMock, EasyMock, Mockito
 
+//  => 격리 프레임워크(Mockito)
+//   : Stub, Spy 도 만들 수 있습니다.
 
+
+public class DLogTest {
+    // DLog 객체 등록된 target에 대해서 write가 호출되어야만 합니다.
+
+    @Test
+    public void writeTest() {
+        // Mock Object(모의 객체)를 동적으로 생성하는 방법.
+        Target mock1 = mock(Target.class);  // Byte Buddy / Objenesis - Reflection
+        Target mock2 = mock(Target.class);
+        // 메소드가 간접적으로 호출된 정보를 기록하고 있다.
+        DLog log = new DLog(mock1, mock2);
+
+        // Act
+        log.write(Level.ERROR, "테스트 메세지");
+
+        // Assert
+        // : Junit 에서 제공하는 assert 함수를 사용하는 것이 아닙니다.  : TDD
+        //   Mockito 에서 제공하는 행위 검증 단언문을 사용해야 합니다.   : BDD
+        verify(mock1).write(Level.ERROR, "테스트 메세지1");
+        verify(mock2).write(Level.ERROR, "테스트 메세지");
+    }
+}
+
+
+//-----------
 enum Level {
     INFO, WARN, ERROR
 }

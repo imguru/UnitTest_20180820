@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="62ce78f5-6fb2-4abe-97e8-0d8d94b4bee5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest_180820.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest_180820.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UnitTest_180820/ex4/testdouble/fake/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UnitTest_180820/ex4/testdouble/fake/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex4/testdouble/spy/DLogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4/testdouble/spy/DLogTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,104 +27,50 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="14" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="17953" />
+          <entry key="java" value="18616" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17953" />
+          <entry key="JAVA" value="18616" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lge/utils/test/CalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="93" selection-start-line="18" selection-end-line="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lge/utils/test/fixture/CalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2888">
-              <caret line="159" selection-start-line="159" selection-end-line="159" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ex1/XUnitSamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ex2/TerminalTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ex3/HamcrestSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ex4/testdouble/spy/DLogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+            <state relative-caret-position="280">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#548#549#0" expanded="true" />
                 <element signature="e#586#587#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ex4/testdouble/stub/LoggerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,6 +132,17 @@
             <path>
               <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="mockito" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -198,6 +157,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ex4" type="462c0819:PsiDirectoryNode" />
               <item name="testdouble" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4" type="462c0819:PsiDirectoryNode" />
+              <item name="testdouble" type="462c0819:PsiDirectoryNode" />
+              <item name="stub" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnitTest_180820" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnitTest_180820" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4" type="462c0819:PsiDirectoryNode" />
+              <item name="testdouble" type="462c0819:PsiDirectoryNode" />
+              <item name="stub" type="462c0819:PsiDirectoryNode" />
+              <item name="LoggerTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -225,18 +201,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserManagerTest.createTest">
-    <configuration name="EngineTest.nameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DLogTest.writeTest">
+    <configuration name="DLogTest.writeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest_180820" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex4.testdouble.stub.*" />
+          <option name="PATTERN" value="ex4.testdouble.spy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex4.testdouble" />
-      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.EngineTest" />
-      <option name="METHOD_NAME" value="nameTest" />
+      <option name="PACKAGE_NAME" value="ex4.testdouble.spy" />
+      <option name="MAIN_CLASS_NAME" value="ex4.testdouble.spy.DLogTest" />
+      <option name="METHOD_NAME" value="writeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -303,19 +279,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.EngineTest.nameTest" />
       <item itemvalue="JUnit.LoggerTest" />
       <item itemvalue="JUnit.UserTest.moveTest" />
       <item itemvalue="JUnit.UserManagerTest" />
       <item itemvalue="JUnit.UserManagerTest.createTest" />
+      <item itemvalue="JUnit.DLogTest.writeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DLogTest.writeTest" />
         <item itemvalue="JUnit.UserManagerTest.createTest" />
         <item itemvalue="JUnit.UserManagerTest" />
         <item itemvalue="JUnit.UserTest.moveTest" />
         <item itemvalue="JUnit.LoggerTest" />
-        <item itemvalue="JUnit.EngineTest.nameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -330,12 +306,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoggerTest - 2018.08.21 at 09h 24m 14s.xml">
-      <configuration name="LoggerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoggerTest - 2018.08.21 at 09h 24m 34s.xml">
-      <configuration name="LoggerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoggerTest - 2018.08.21 at 10h 03m 57s.xml">
       <configuration name="LoggerTest" configurationId="JUnit" />
     </history-entry>
@@ -360,6 +330,12 @@
     <history-entry file="UserManagerTest_createTest - 2018.08.21 at 10h 41m 25s.xml">
       <configuration name="UserManagerTest.createTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DLogTest_writeTest - 2018.08.21 at 11h 40m 43s.xml">
+      <configuration name="DLogTest.writeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DLogTest_writeTest - 2018.08.21 at 11h 40m 51s.xml">
+      <configuration name="DLogTest.writeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="108" width="1280" height="697" extended-state="0" />
@@ -372,7 +348,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3723077" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6677686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,46 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="360" column="23" selection-start-line="360" selection-start-column="23" selection-end-line="360" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lge/utils/test/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="93" selection-start-line="18" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lge/utils/test/fixture/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2888">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex1/XUnitSamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex2/TerminalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,20 +451,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex4/testdouble/stub/LoggerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ex2/TerminalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="106">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#2633#2634#0" expanded="true" />
-            <element signature="e#2686#2687#0" expanded="true" />
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex1/XUnitSamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lge/utils/test/fixture/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lge/utils/test/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="93" selection-start-line="18" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -536,7 +494,7 @@
     <entry file="file://$PROJECT_DIR$/src/ex3/HamcrestSample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
@@ -549,10 +507,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex4/testdouble/stub/LoggerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ex4/testdouble/spy/DLogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="280">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#548#549#0" expanded="true" />
