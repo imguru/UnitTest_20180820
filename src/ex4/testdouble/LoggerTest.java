@@ -12,11 +12,32 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+// 테스트 대역 종류 4가지
+// 1. Stub
+// 2. Fake
+// 3. Spy
+// 4. Mock
+
+// Test stub pattern
+//  : 협력 객체를 간단하게 대신하기 위해 쓰이는 '제어 가능한' 테스트 대역
+class StubFileSystemManager implements IFileSystemManager {
+    private boolean result;
+    public StubFileSystemManager(boolean result) {
+        this.result = result;
+    }
+
+    @Override
+    public boolean isValid(String filename) {
+        return result;
+    }
+}
+
 public class LoggerTest {
     @Test
     public void isValidFilename_NameLoggerThan5Chars_ReturnsTrue() {
         String filename = "good_name.log";
-        Logger logger = new Logger();
+        StubFileSystemManager stub = new StubFileSystemManager(true);
+        Logger logger = new Logger(stub);
 
         boolean actual = logger.isValidFilename(filename);
 
@@ -27,7 +48,8 @@ public class LoggerTest {
     @Test
     public void isValidFilename_NameShorterThan5Chars_ReturnsFalse() {
         String filename = "ba@.log";
-        Logger logger = new Logger();
+        StubFileSystemManager stub = new StubFileSystemManager(true);
+        Logger logger = new Logger(stub);
 
         boolean actual = logger.isValidFilename(filename);
 
@@ -98,7 +120,8 @@ class FileSystemManager implements IFileSystemManager {
     @Override
     public boolean isValid(String filename) {
         // NTFS, ext3, HFS
-        return false;
+        throw new IllegalStateException();
+        // return false;
     }
 }
 
