@@ -34,7 +34,7 @@ public class EngineTest {
     public void nameTest() throws Exception {
         // Java - Reflection
         // : private 필드의 값을 읽어오는 것도 가능합니다.
-        User user = new User();
+        ex4.testdouble.stub.User user = new ex4.testdouble.stub.User();
         Class clazz = user.getClass();
 
         Field nameField = clazz.getDeclaredField("name");

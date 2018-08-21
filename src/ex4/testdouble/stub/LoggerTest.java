@@ -1,4 +1,4 @@
-package ex4.testdouble;
+package ex4.testdouble.stub;
 
 // 테스트 대역 목적: 테스트 대상 코드를 격리한다.
 //   => 작성하는 테스트의 성공과 실패가 CUT에 의해서 결정되어야 한다.
@@ -13,7 +13,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 // 테스트 대역 종류 4가지
-// 1. Stub
+// 1. Stub - *
 // 2. Fake
 // 3. Spy
 // 4. Mock
